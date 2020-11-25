@@ -24,7 +24,7 @@ def temporal_crop(buffer_len, clip_len):
     if buffer_len >= sample_len:
         start_index = np.random.randint(buffer_len - clip_len)
     else:
-        if buffer_len != 32:
+        if buffer_len != 32 and buffer_len!=0:
             multiplier = int(np.ceil(sample_len / buffer_len))
         else:
             multiplier = 2
