@@ -67,6 +67,7 @@ class VideoDataset(Dataset):
             else:
                 frame_dir = main_dir + '/hmdb51_tvl1_flow/tvl1_flow'
         
+        mode = 'train'
         txt_file = dataset + '_' + mode + 'list0' + str(split) + '.txt'
             
         # reading in the content of mapping text files into a buffer
