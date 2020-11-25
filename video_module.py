@@ -314,7 +314,7 @@ def transpose_clip_buffer(buffer):
             
     
 if __name__ == '__main__':
-    video_path = '../dataset/UCF-101/ucf101_jpegs_256/jpegs_256/v_HorseRiding_g14_c02'
+    video_path = '/content/jpegs_256/#122_Cleaning_Up_The_Beach_In_Chiba__Japan_pick_f_nm_np1_fr_bad_1'
     #video_path = '../dataset/UCF-101/ucf101_tvl1_flow/tvl1_flow/u/v_HorseRiding_g14_c03'
     #video_path2 = '../dataset/UCF-101/ucf101_tvl1_flow/tvl1_flow/v/v_HorseRiding_g14_c03'
     #buffer = load_clips([video_path, video_path2], 'flow', 128, 171, 112, 112, 32, mode = 'test', mean_sub=True)
